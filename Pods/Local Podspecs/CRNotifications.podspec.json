@@ -1,8 +1,8 @@
 {
   "name": "CRNotifications",
-  "version": "1.1.5",
+  "version": "1.2.1",
   "summary": "Custom in-app notifications.",
-  "description": "Custom in-app notifications.",
+  "description": "CRNotifications are custom in-app notifications with 3 types of layouts. The notifications will animate in and out. They will hide when they are clicked on or with an automatic dismissal.",
   "homepage": "https://github.com/dkcas11/CRNotifications",
   "screenshots": [
     "https://camo.githubusercontent.com/8bb3b0d4e643c0adb2a048814c5319bf8a6aa413/687474703a2f2f693833312e70686f746f6275636b65742e636f6d2f616c62756d732f7a7a3233372f646b63617331312f737563636573732e6a7067",
@@ -18,17 +18,15 @@
   },
   "source": {
     "git": "https://github.com/dkcas11/CRNotifications.git",
-    "tag": "1.0.4"
+    "tag": "1.2.1"
   },
   "social_media_url": "https://twitter.com/dkcas11",
   "platforms": {
     "ios": "9.0"
   },
+  "swift_versions": "5.0",
   "source_files": "CRNotifications/Classes/**/*",
-  "resource_bundles": {
-    "CRNotifications": [
-      "CRNotifications/Assets/*.xcassets"
-    ]
-  },
-  "frameworks": "UIKit"
+  "resources": "CRNotifications/Assets/*.xcassets",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
 }

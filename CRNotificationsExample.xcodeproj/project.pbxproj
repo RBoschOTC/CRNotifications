@@ -103,7 +103,6 @@
 				AF90178C1E817E2600F4D8F8 /* Frameworks */,
 				AF90178D1E817E2600F4D8F8 /* Resources */,
 				3E3E8CA4FFE01341935D484E /* [CP] Embed Pods Frameworks */,
-				177AA681854FBAA1E77B5C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,31 +162,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		177AA681854FBAA1E77B5C0B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/CRNotifications/CRNotifications.bundle,
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3E3E8CA4FFE01341935D484E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CRNotifications/CRNotifications.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -196,7 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CRNotificationsExample/Pods-CRNotificationsExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		61B22BA6B5319D40E885C837 /* [CP] Check Pods Manifest.lock */ = {
